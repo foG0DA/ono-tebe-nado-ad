@@ -179,6 +179,7 @@
     
 
 }
+
 .lot-text {
     position: absolute;
     right: 40px;
@@ -192,6 +193,7 @@
     
     
 }
+
 .text-under-lots {
     padding-left: 40px;
     font-size: 20px;
@@ -205,6 +207,7 @@
     margin: 120px 24px 0px;
     
 }
+
 .about-logo {
     position: absolute;
     top: 35px;
@@ -266,14 +269,11 @@
     grid-template-columns: repeat(3, 1fr);
     align-items: start;
     padding: 168px 50px 82px;
-
-
 }
 
 .footer-menu-link-active {
     text-decoration: none;
 }
-
 
 .address-footer {
     display: flex;
