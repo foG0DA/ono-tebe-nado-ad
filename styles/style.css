@@ -19,19 +19,20 @@
     gap: 9px;
     margin: 0;
     padding: 0;
-    list-style: none;
     font-size: 18px;
+    list-style: none;
 }
 
 .header-menu-item {
-    list-style-type: circle;
     list-style-position: inside;
+    list-style-type: circle;
 }
 
 .logo {
     width: 136px;
     height: 105px;
 }
+
 .address {
     display: flex;
     flex-direction: column;
@@ -46,27 +47,29 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background: url("../images/cover.jpg");
     width: 1100px;
     max-height: 757px;
+    background: url("../images/cover.jpg");
 
 
 }
+
 .cover-title {
     position: relative;
     display: flex;
     flex-direction: column;
-    text-transform: uppercase;
-    font-size: 100px;
-    color: #fff;
-    font-weight: 700;
-    line-height: 115px;
-    letter-spacing: 30%;
     margin: 0;
     padding: 165px 50px 105px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 115px;
+    letter-spacing: 30%;
+    text-transform: uppercase;
 
 
 }
+
 .cover-word-left {
     align-self: start;
 }
@@ -79,8 +82,8 @@
 
 .cover-word-right {
     align-self: end;
-    margin-right: -30px;
     margin-top: 18px;
+    margin-right: -30px;
 }
 
 .description {
@@ -91,50 +94,58 @@
     padding: 0px 50px 50px;
    
 }
+
 .description-text {
-    font-size: 22px;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: 22px;
-    text-transform: uppercase;
     color: #fff;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: 0;
+    text-transform: uppercase;
     word-spacing: 20px;
 }
 
 .button {
     border: 1px solid #fff;
+    padding: 12px 30px;
     color: #fff;
-    background: none;
-    text-transform: uppercase;
-    cursor: pointer;
     font: inherit;
     font-size: 22px;
-    padding: 12px 30px;
+    text-transform: uppercase;
+    background: none;
+    cursor: pointer;
 }
 
 .lots {
     padding:186px 24px 0px;
     
 }
+
 .lots-title {
-    padding-left: 40px;
     margin-bottom: 28px;
-    line-height: 100%;
-    text-transform: uppercase;
+    padding-left: 40px;
     font-size: 40px;
+    line-height: 100%;
     letter-spacing: 0%;
+    text-transform: uppercase;
     
 }
+
 .lots-list {
     display: flex;
     justify-content: space-between;
-    margin: 0;
-    padding: 0;
     gap: 25px;
-    list-style: none;
+    margin: 0;
     margin-bottom: 30px;
+    padding: 0;
+    list-style: none;
 }
-.lot-link {}
+
+.lot-link {
+  color: #fff;
+  text-decoration: none;
+}
+
 .lot {
     position: relative;
     display: flex;
@@ -143,6 +154,7 @@
     width: 334px;
     height: 596px;
 }
+
 .lot-image {
   position: absolute;
   top: 0;
@@ -151,89 +163,91 @@
   height: 100%;
   object-fit: cover;
 }
+
 .lot-title {
     position: absolute;
-    margin: 48px 40px 466px;
     max-width: 254px;
-    font-size: 22px;
+    max-height: 110px;
+    margin: 48px 40px 466px;
+    color: #fff;
     font-weight: 700;
+    font-size: 22px;
     line-height: 120%;
     letter-spacing: 0%;
-    text-transform: uppercase;
     text-decoration: underline;
-    color: #fff;
-    max-height: 110px;
+    text-transform: uppercase;
     
 
 }
 .lot-text {
     position: absolute;
-    font-size: 20px;
-    letter-spacing: 0%;
-    line-height: 120%;
-    color: #fff;
+    right: 40px;
     bottom: 48px;
     left: 40px;
-    right: 40px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0%;
     
     
     
 }
 .text-under-lots {
-    font-size: 20px;
     padding-left: 40px;
+    font-size: 20px;
+    text-decoration: none;
 }
 
 /* Об аукционе */
 .about {
     position: relative;
-    margin: 120px 24px 0px;
     min-height: 595px;
+    margin: 120px 24px 0px;
     
 }
 .about-logo {
     position: absolute;
-    background-color: black;
-    border-radius: 50%;
-    width: 240px;
-    height: 240px;
     top: 35px;
     left: 47px;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    background-color: black;
 
 }
 
 .logo-image{
     position: absolute;
-    width:148px;
-    height:114px;
     top: 64px;
     left: 46.48px;
+    width:148px;
+    height:114px;
 }
 
 .about-text {
     padding-top: 136px;
-    padding-left: 359px;
     padding-right: 24px;
     padding-bottom: 13px;
+    padding-left: 359px;
     
 
 }
 
 .about-title {
     margin-top: 3px;
-    font-size: 40px;
     font-weight: 700;
-    text-transform: uppercase;
+    font-size: 40px;
     line-height: 100%;
     letter-spacing: 0%;
+    text-transform: uppercase;
 }
 
 .about-information {
     display: flex;
     flex-direction: column;
-    margin-top: 105px;
     gap: 24px;
     max-width: 693px;
+    margin-top: 105px;
     font-size: 20px;
     line-height: 24px;
 }
@@ -250,8 +264,8 @@
 .footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding: 168px 50px 82px;
     align-items: start;
+    padding: 168px 50px 82px;
 
 
 }
@@ -270,16 +284,16 @@
 }
 
 .footer-menu {
-    text-align: center;
-    list-style: none;
     padding-left: 0;
     line-height: 21px;
+    text-align: center;
+    list-style: none;
 }
 
 .logo-footer {
     display: flex;
-    gap: 48px;
     justify-self: end;
+    gap: 48px;
     list-style: none;
 }
 
